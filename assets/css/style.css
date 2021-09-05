@@ -1,0 +1,61 @@
+
+/*/ follow<*> tells, remove default browser-enforced
+styling form entire style sheet unless we explicitly tell/*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial,sans-serif;
+    color: #39a6b2;
+}
+
+header {
+    padding: 10px 15px 20px 25px;
+    background-color: #39a6b2
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+/*/ to make the h1 element line up hrizonall
+        we need to make inline element here, 
+        and let's style <h1> /*/
+    display: inline;
+}
+
+header a{
+    color:#fce138
+}
+/* style the navigation Bar 1.2.7 */
+        /*/style all of the <a> inside <header>/*/
+header a {
+    text-decoration: none;
+    color: #fce138;
+} 
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+header nav {
+    float: right;
+    margin: 7px 0;
+}       
+
+/*/ to make the navigation links line up
+            horizonally in a low, we need to make 
+            inline  element here /*/
+header nav ul li {
+    display: inline
+}
+/*/ and let's style <a> /*/
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: ligter;
+    font-size: 22px;
+}
+
+
