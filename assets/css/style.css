@@ -1,9 +1,11 @@
 
 /*/ follow<*> tells, remove default browser-enforced
 styling form entire style sheet unless we explicitly tell/*/
-* {
+/*/ then add box-sizing property/*/
+ * {
     margin: 0;
     padding: 0;
+    box-sizing: boader-box;
 }
 
 body {
@@ -56,6 +58,28 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: ligter;
     font-size: 22px;
+}
+
+
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+/*/h2 is same as layout as header/*/
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+footer a {
+    color: #024e76;
 }
 
 
