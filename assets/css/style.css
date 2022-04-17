@@ -1,96 +1,99 @@
-
 /*/ follow<*> tells, remove default browser-enforced
 styling form entire style sheet unless we explicitly tell/*/
 /*/ then add box-sizing property/*/
- * {
-    margin: 0;
-    padding: 0;
-    box-sizing: boader-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boader-box;
 }
 
 body {
-    font-family: Helvetica, Arial,sans-serif;
-    color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #39a6b2;
 }
 
 header {
-    padding: 10px 15px 20px 25px;
-    background-color: #39a6b2
+  padding: 10px 15px 20px 25px;
+  background-color: #39a6b2;
 }
 
 header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-/*/ to make the h1 element line up hrizonall
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  /*/ to make the h1 element line up hrizonall
         we need to make inline element here, 
         and let's style <h1> /*/
-    display: inline;
+  display: inline;
 }
 
-header a{
-    color:#fce138
+header a {
+  color: #fce138;
 }
 /* style the navigation Bar 1.2.7 */
-        /*/style all of the <a> inside <header>/*/
+/*/style all of the <a> inside <header>/*/
 header a {
-    text-decoration: none;
-    color: #fce138;
-} 
-header nav {
-    float: right;
-    margin: 7px 0;
+  text-decoration: none;
+  color: #fce138;
 }
 header nav {
-    float: right;
-    margin: 7px 0;
-}       
+  float: right;
+  margin: 7px 0;
+}
+header nav {
+  float: right;
+  margin: 7px 0;
+}
 
 /*/ to make the navigation links line up
             horizonally in a low, we need to make 
             inline  element here /*/
 header nav ul li {
-    display: inline
+  display: inline;
 }
 /*/ and let's style <a> /*/
 header nav ul li a {
-    margin: 0 30px;
-    font-weight: ligter;
-    font-size: 22px;
+  margin: 0 30px;
+  font-weight: ligter;
+  font-size: 22px;
 }
 
-
-
 footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
 }
 /*/h2 is same as layout as header/*/
 footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
 }
 footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
+  float: right;
+  line-height: 1.5;
+  text-align: right;
 }
 footer a {
-    color: #024e76;
-}
-section {
-    padding: 60px;
+  color: #024e76;
 }
 /* Hero Style Start */
 .hero {
-    background-image: url("../images/hero-bg.jpg");
-    height: 600px;
-    background-size: cover;
-    background-position: center;
+  background-image: url("../images/hero-bg.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+.hero-form {
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
 }
 /* Hero style End */
-
+section {
+  padding: 60px;
+  background-image: url("../images/hero-bg.jpg");
+}
