@@ -85,15 +85,21 @@ footer a {
   height: 600px;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 .hero-form {
   background-color: #fce138;
   padding: 20px;
   width: 500px;
   color: #024e76;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #024e76;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
+}
+.hero-form p {
+  margin: 5px 0 15px 0;
 }
 /* Hero style End */
-section {
-  padding: 60px;
-  background-image: url("../images/hero-bg.jpg");
-}
